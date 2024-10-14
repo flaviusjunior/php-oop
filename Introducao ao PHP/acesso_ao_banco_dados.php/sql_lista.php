@@ -31,5 +31,6 @@ function listarMysql() {
     mysqli_close($conn);
 }
 
-listarMysql();
+//listarMysql();
+listarPqsl()
 ?>

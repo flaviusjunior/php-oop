@@ -4,10 +4,10 @@ function inserePostgres() {
     $conn = pg_connect("host=localhost port=5432 dbname=livro user=postgres password=root");
 
 
-    pg_query($conn, "INSERT INtO famosos (codigo, nome) VALUES (1, 'Erico verissimo')");
-    pg_query($conn, "INSERT INtO famosos (codigo, nome) VALUES (3, 'Ayrtom Sena')");
-    pg_query($conn, "INSERT INtO famosos (codigo, nome) VALUES (4, 'Silvio Santos')");
-    pg_query($conn, "INSERT INtO famosos (codigo, nome) VALUES (5, 'Anita Garibaldi')");
+    pg_query($conn, "INSERT INtO famosos (codigo, nome) VALUES (6, 'Erico verissimo')");
+    pg_query($conn, "INSERT INtO famosos (codigo, nome) VALUES (7, 'Ayrtom Sena')");
+    pg_query($conn, "INSERT INtO famosos (codigo, nome) VALUES (8, 'Silvio Santos')");
+    pg_query($conn, "INSERT INtO famosos (codigo, nome) VALUES (9, 'Anita Garibaldi')");
 
     pg_close($conn);
 }
@@ -25,6 +25,6 @@ function insereMysql() {
 }
 
 
-insereMysql()
-
+//insereMysql()
+inserePostgres()
 ?>
