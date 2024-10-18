@@ -1,6 +1,6 @@
 <?php
 
-class Produto{
+class Produto1{
 
     public $descricao;
     public $estoque;
@@ -23,7 +23,7 @@ class Produto{
     }
 
 }
-$p1 = new Produto;
+$p1 = new Produto1;
 $p1 -> descricao = 'chocolate';
 $p1 -> estoque = 10;
 $p1 -> preco = 8;
