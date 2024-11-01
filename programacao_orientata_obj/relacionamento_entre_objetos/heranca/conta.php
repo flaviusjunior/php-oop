@@ -12,7 +12,7 @@ class Conta {
             $this->saldo = $saldo;
         }
     }
-    public function getInf() {
+    public function getInfo() {
         return "Agencia: {$this->agencia}, Conta: {$this->conta}";
     }
     public function depositar($quantia) {
